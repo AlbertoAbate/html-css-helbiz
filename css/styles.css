@@ -64,7 +64,8 @@ body {
   /* main */
   /* prima section */
   /* helbizGO */
-  .prima .helbiz-go,
+
+  .helbiz-go,
   .helbiz-bike {
     width: 50%;
     margin: 20px auto;
