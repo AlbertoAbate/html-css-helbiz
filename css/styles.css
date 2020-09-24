@@ -1,9 +1,16 @@
-.container {
-  width: 1260px;
+body {
+ font-family: sans-serif;
 }
-/* .container-small {
-  width: 1000px;
-} */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+
+}
+.container-small {
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+}
 /* header */
 /* header-top */
 .header-top {
@@ -28,7 +35,7 @@
 }
 .header-bottom-text {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%);
   color: #fff;
@@ -40,6 +47,10 @@
   [class*="col-"] {
     float: none;
   }
+  .header-bottom-text {
+    top: 20%;
+    transform: translate(-55%);
+  }
   .header-bottom-loghi a img {
     width: 100px;
   }
@@ -48,7 +59,7 @@
     float: left;
   }
   .apple {
-    margin-right: 15px;
+    margin-right: 30px;
   }
 }
 
