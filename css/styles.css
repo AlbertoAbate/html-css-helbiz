@@ -1,0 +1,104 @@
+.container {
+  width: 1260px;
+}
+/* .container-small {
+  width: 1000px;
+} */
+/* header */
+/* header-top */
+.header-top {
+  padding-top: 5px;
+  padding-bottom: 30px;
+}
+.header-top img {
+  display: block;
+  margin: 0 auto;
+}
+.only-desktop {
+  display: none;
+}
+/* header-bottom */
+.header-bottom {
+  height: 600px;
+  width: 100%;
+  background-image: url(../img/hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.header-bottom-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  color: #fff;
+}
+.header-bottom-text p {
+  margin: 25px 0;
+}
+@media screen and (max-width: 767px) {
+  [class*="col-"] {
+    float: none;
+  }
+  .header-bottom-loghi a img {
+    width: 100px;
+  }
+  .apple,
+  .google {
+    float: left;
+  }
+  .apple {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  [class*="col-"] {
+    float: none;
+  }
+  .header-bottom-loghi a img {
+    width: 120px;
+  }
+  .apple,
+  .google {
+    float: left;
+  }
+  .apple {
+    margin-right: 15px;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+
+  [class*="col-"] {
+    float: left;
+  }
+  .header-top-left img {
+    display: inline-block;
+    width: 100px;
+  }
+  .only-desktop {
+    display: inline-block;
+  }
+  .header-top-right .navigazione li {
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+    color: #9b9b9b;
+  }
+  .header-top-right .navigazione li a {
+    text-decoration: none;
+    color: #9b9b9b;
+    text-transform: uppercase;
+  }
+  .header-top-right .navigazione li:nth-of-type(8) {
+    border-right: 2px solid #9b9b9b;
+    padding-right: 5px;
+  }
+  .header-top-right .navigazione li:nth-of-type(9) {
+    border-right: 2px solid #9b9b9b;
+    padding-right: 5px;
+  }
+
+}
